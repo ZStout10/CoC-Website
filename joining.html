@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+	<head>
+		<title>The Office CoC: Joining</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	
+	<body>
+		<div id="looknice">
+			<h1>Want to join the clan?</h1>
+			<div class="nav">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="clan_highlights.html">Clan Highlights</a></li>
+						<li><a href="joining.html">Want to join?</a></li>
+						<li><a href="safety.html">Safety</a></li>
+					</ul>
+				</nav>	
+			</div>
+			<h3>Requirements to Join:</h3>
+			<ul>
+				<li>English Speaking</li>
+				<li>MAX town hall 7+</li>
+				<li>18 Years old or older</li>
+				<li>NO rushed bases</li>
+				<li>Discord <b>STRONGLY</b> recommended for war target coordination</li>
+			</ul>
+		<form>
+			<fieldset>
+				<legend>When did you start playing?</legend>
+				<input type="text" id="tripDate" />
+			</fieldset>
+			<p id="countdown"></p>
+			<fieldset>
+				<legend><span>War Weight Calculator (Hint: Look at your war base and put the amount of loot in either your gold or elixir collector
+				into the calculator).</span></legend>
+				<input type="text" id="wwcalc" value=0 min=0 />	
+				<label for="wwcalc"></label>
+			</fieldset>
+			<p>War Weight: <span id="warweight"></span></p>
+			<span id="errorMessage"></span>
+			<fieldset>
+				<legend>Interested in joining the clan?</legend>
+				<input id="yesAnswer" name="yesAnswer" type="checkbox">Yes</input>
+				<input id="noAnswer" name="noAnswer" type="checkbox">No</input>
+			</fieldset>
+			<span id ="response"></span>
+			<fieldset>
+				<legend>How did you hear about us?</legend>
+				<input id="discord" name="info" value="discord" type="checkbox">Discord</input>
+				<input id="facebook" name="info" value="facebook" type="checkbox">Facebook</input>
+				<input id="insta" name="info" value="instagram" type="checkbox">Instagram</input>
+				<input id="tool" name="info" value="in game tool" type="checkbox">In game recruitment tool</input>
+				<input id="friend" name="info" value="friend" type="checkbox">A friend</input>
+			</fieldset>
+			<input type="button" id="submit" value="Submit"></input>
+		</form>
+		<div id="cal">
+         <div id="prev">&lt; previous</div>
+         <div id="next">next &gt;</div>
+         <table>
+            <caption></caption>
+            <tr>
+               <th>Sun</th>
+               <th>Mon</th>
+               <th>Tue</th>
+               <th>Wed</th>
+               <th>Thu</th>
+               <th>Fri</th>
+               <th>Sat</th>
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+            </tr>
+            <tr>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+               <td></td>
+            </tr>
+         </table>
+         <p id="close">close <span>&#9746;</span></p>
+      </div>
+		<script src="wwcalc.js"></script>
+	</div>
+	</body>
+</html>

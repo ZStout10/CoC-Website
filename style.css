@@ -1,0 +1,165 @@
+body {
+	background-image: url(photos/background.png);
+	background-color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	background-color: #87CEFA;
+	font-size: 5em;
+	margin-bottom: 0;
+
+}
+
+h2, h3, h4, h5, h6, p, ul, li {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+img {
+	width: 80%;
+	height: auto;
+}
+
+nav {
+	text-align: center;
+	padding-bottom: 60px;
+}
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+.nav {
+	overflow: auto;
+	width: 100%;
+	background-color: #555;
+}
+
+.nav a {
+	text-decoration: none;
+	font-size: 40px;
+	text-align: center;
+	float: left;
+	width: 25%;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+form {
+	background-color: white;
+}
+
+p {
+	background-color: white;
+}
+
+#looknice {
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 85%;
+}
+
+#countdownSection {
+   display: none;
+}
+
+/*Map*/
+#map {
+   width: 100%;
+   min-height: 300px;
+}
+
+#directions {
+   width: 100%;
+   height: 100%;
+}
+
+/*calendar*/
+#cal {
+   display: none;
+   position: absolute;
+   left: 230px;
+   top: 65px;
+   background: Gray;
+   color: white;
+   padding: 10px;
+   -moz-border-radius-topleft: 10px;
+   -webkit-border-top-left-radius: 10px;
+    border-top-left-radius: 10px;
+   -moz-border-radius-topright: 10px;
+   -webkit-border-top-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#cal table {
+   clear: both;
+}
+
+#cal table caption {
+   font-weight: bold;
+   font-size: 14pt;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background: rgb(46,49,146);
+}
+
+#cal table th {
+   text-align: right;
+}
+
+#cal table th, #cal table td {
+   width: 2em;
+   padding: 4px;
+}
+
+#cal table td {
+   color: rgb(178,184,183);
+   text-align: right;
+   cursor: pointer;
+}
+
+#prev {
+   float: left;
+   padding: 4px;
+   cursor: pointer;
+}
+
+#next {
+   float: right;
+   padding: 4px;
+   cursor: pointer;
+}
+
+#cal table td.futuredate {
+   color: white;
+}
+
+#cal table td.futuredate:hover, #prev:hover, #next:hover, #close:hover {
+   background: yellow;
+   color: black;
+}
+
+#close {
+   color: white;
+   float: right;
+   padding: 0 4px;
+   cursor: pointer;
+}
+
+#close span {
+   font-size: 20pt;
+}
